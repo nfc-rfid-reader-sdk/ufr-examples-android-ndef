@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">µFR NFC NDEF Tool</string>
+
+    <string-array name="store_into_modes">
+        <item>µFR Reader</item>
+        <item>Card</item>
+    </string-array>
+
+    <string-array name="wifi_auth_modes">
+        <item>Open</item>
+        <item>WPA - Personal</item>
+        <item>WPA - Enterprise</item>
+        <item>WPA2 - Enterprise</item>
+        <item>WPA2 - Personal</item>
+    </string-array>
+
+    <string-array name="wifi_enc_modes">
+        <item>None</item>
+        <item>WEP</item>
+        <item>TKIP</item>
+        <item>AES</item>
+        <item>AES/TKIP</item>
+    </string-array>
+
+    <string-array name="uri_types">
+        <item>http://www.</item>
+        <item>https://www.</item>
+        <item>http://</item>
+        <item>https://</item>
+        <item>tel:</item>
+        <item>mailto:</item>
+        <item>ftp://anonymous:anonymous@</item>
+        <item>ftp://ftp.</item>
+        <item>ftps://</item>
+        <item>sftp://</item>
+        <item>smb://</item>
+        <item>nfs://</item>
+        <item>ftp://</item>
+        <item>dav://</item>
+        <item>news:</item>
+        <item>telnet://</item>
+        <item>imap:</item>
+        <item>rtsp://</item>
+        <item>urn:</item>
+        <item>pop:</item>
+        <item>sip:</item>
+        <item>sips:</item>
+        <item>tftp:</item>
+        <item>btspp://</item>
+        <item>btl2cap://</item>
+        <item>btgoep://</item>
+        <item>tcpobex://</item>
+        <item>irdaobex://</item>
+        <item>file://</item>
+        <item>urn:epc:id:</item>
+        <item>urn:epc:tag:</item>
+        <item>urn:epc:pat:</item>
+        <item>urn:epc:raw:</item>
+        <item>urn:epc:</item>
+        <item>urn:nfc:</item>
+    </string-array>
+
+    <string-array name="skype_operation">
+        <item>Call</item>
+        <item>Chat</item>
+    </string-array>
+
+</resources>

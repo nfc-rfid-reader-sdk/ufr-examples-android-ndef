@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteWifiActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_picture">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#8fc743"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/back_from_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/back_icon"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="Email"
+        android:textColor="#8fc743"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <LinearLayout
+        android:id="@+id/writeEmailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/container2"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/writeEmailStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store into :"
+                android:textColor="#616161"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f0f0f0"
+                android:layout_marginLeft="5dp">
+                <Spinner
+                    android:id="@+id/email_store_into"
+                    style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#616161" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email address :"
+                android:textColor="#616161"/>
+            <EditText
+                android:id="@+id/emailAddressET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f0f0f0"
+                android:layout_marginLeft="5dp"
+                android:hint=" Type email address..."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject :"
+                android:textColor="#616161"/>
+            <EditText
+                android:id="@+id/emailSubjectET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f0f0f0"
+                android:layout_marginLeft="5dp"
+                android:hint=" Type subject..."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message :"
+                android:textColor="#616161" />
+            <EditText
+                android:id="@+id/emailMessageET"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#f0f0f0"
+                android:layout_marginLeft="15dp"
+                android:hint=" Type message..."
+                android:gravity="top"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonWriteEmail"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="WRITE"
+        android:background="@drawable/button_pattern"
+        android:textColor="@drawable/button_text_pattern"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"/>
+</LinearLayout>

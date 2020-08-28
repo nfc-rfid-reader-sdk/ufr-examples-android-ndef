@@ -1,0 +1,6 @@
+[submodule "app/ufr-lib"]
+	path = app/libs
+	url = https://git.d-logic.net/nfc-rfid-reader-sdk/ufr-lib.git
+[submodule "app/libs"]
+	path = app/libs
+	url = https://git.d-logic.net/nfc-rfid-reader-sdk/ufr-lib.git

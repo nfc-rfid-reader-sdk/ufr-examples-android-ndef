@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteWifiActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#8fc743"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/back_from_readndef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/back_icon"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/parsedRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#8fc743"
+            android:checked="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parsed data"/>
+        <RadioButton
+            android:id="@+id/rawRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#8fc743" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAW data"/>
+    </LinearLayout>!-->
+
+    <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+            android:divider="#8fc743"
+            android:dividerHeight="1dp"/>
+
+    <!--
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:id="@+id/parsedDataId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8fc743"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/parsedId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    !-->
+</LinearLayout>

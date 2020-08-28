@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dlogic.ufrndef">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true">
+        <activity android:name=".ReadNdefActivity"></activity>
+        <activity android:name=".WriteUrlActivity" />
+        <activity android:name=".WriteWhatsappActivity" />
+        <activity android:name=".WriteViberActivity" />
+        <activity android:name=".WriteSkypeActivity" />
+        <activity android:name=".WriteBitcoinActivity" />
+        <activity android:name=".WriteContactActivity" />
+        <activity android:name=".WritePhoneActivity" />
+        <activity android:name=".WriteStreetViewActivity" />
+        <activity android:name=".WriteTextActivity" />
+        <activity android:name=".WriteApplicationActivity" />
+        <activity android:name=".WriteAddressActivity" />
+        <activity android:name=".WriteEmailActivity" />
+        <activity android:name=".WriteNaviDestinationActivity" />
+        <activity android:name=".WriteLocationActivity" />
+        <activity android:name=".WriteSMSActivity" />
+        <activity android:name=".WriteBluetoothActivity" />
+        <activity android:name=".WriteWifiActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
